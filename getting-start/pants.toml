@@ -1,0 +1,14 @@
+[GLOBAL]
+pants_version = "2.14.0"
+backend_packages = [
+  "pants.backend.python",
+  "pants.backend.python.lint.black",
+]
+
+[python]
+tailor_pex_binary_targets = false
+
+[source]
+root_patterns = [
+  '/src/python'
+]
